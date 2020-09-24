@@ -1,0 +1,158 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:src="@drawable/logomain"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/box1_id"
+        android:layout_marginBottom="50dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/box1_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginfromat"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/personregister_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_black_24dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:id="@+id/emailregister_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personregister_id"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingTop="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="sans-serif"
+            android:background="#ffffff"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/box2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box1_id"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/loginfromat"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/keybord_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_black_24dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:id="@+id/passwordregister_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/keybord_id"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingTop="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="sans-serif"
+            android:background="#ffffff"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/box3_id"
+        android:layout_below="@id/box2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/loginfromat"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/keybord2_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_black_24dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:id="@+id/confirmpassword_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/keybord2_id"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:paddingTop="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="sans-serif"
+            android:background="#ffffff"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/signupbtn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box3_id"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbtnformat"
+        android:textColor="#ffffff"
+        android:text="SignUP"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signupbtn_id"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/Alreadyuser_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a user ! "
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/loginpage_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Login"
+            android:textColor="#081F9B"
+            android:layout_toRightOf="@id/Alreadyuser_id"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

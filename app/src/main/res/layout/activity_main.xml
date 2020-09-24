@@ -1,0 +1,25 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#FF9800"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/mainlogo_id"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:src="@drawable/logomain"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Cosmos"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mainlogo_id"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

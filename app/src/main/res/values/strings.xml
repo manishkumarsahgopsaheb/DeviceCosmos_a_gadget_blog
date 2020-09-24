@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DeviceCosmos</string>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="filtertag">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>Google</item>
+        <item>Pixel Phone</item>
+        <item>Samsung</item>
+        <item>Nokia</item>
+        <item>Facebook</item>
+        <item>Whatsapp</item>
+        <item>Twitter</item>
+        <item>Gmail</item>
+        <item>Google Chrome</item>
+        <item>Apple</item>
+    </array>
+
+
+    <string name="web_client_id">1077670179133-u4ak9qlsoik3lhqkec6vs4lr8ti7o37n.apps.googleusercontent.com</string>
+
+</resources>
